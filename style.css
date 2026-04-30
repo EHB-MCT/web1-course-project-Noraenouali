@@ -82,6 +82,7 @@ nav {
 
 .title-center {
 	text-align: center;
+	margin-top: 0;
 }
 
 .illustration-wrapper-main {
@@ -230,4 +231,50 @@ footer {
 
 .image-fullwidth img {
 	width: 100%;
+}
+
+.media-portfolio-1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: top;
+	filter: grayscale(1);
+}
+
+.media-portfolio-2 {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.media-portfolio-3 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: top;
+	filter: grayscale(1);
+}
+
+.media-portfolio-4 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: top;
+	filter: grayscale(1);
 }
