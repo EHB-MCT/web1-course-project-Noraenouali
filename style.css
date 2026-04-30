@@ -169,6 +169,7 @@ footer {
 	text-transform: uppercase;
 	font-size: 50px;
 	margin: 0;
+	margin-top: 100px;
 	grid-column-start: 2;
 	grid-column-end: 6;
 }
@@ -180,6 +181,7 @@ footer {
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 25px;
 	grid-auto-rows: 300px;
+	margin-bottom: 100px;
 }
 
 .grid-images-1 {
