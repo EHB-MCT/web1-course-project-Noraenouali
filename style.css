@@ -82,6 +82,7 @@ nav {
 	grid-column-end: 7;
 	flex-direction: row-reverse;
 	gap: 10px;
+	justify-content: space-between;
 }
 
 .illustration-wrapper-main img {
@@ -96,6 +97,12 @@ nav {
 	height: 210px;
 	padding: 0 15px;
 	justify-content: center;
+	text-align: center;
+}
+
+.textblock-about {
+	height: 130px;
+	padding: 0 20px;
 }
 
 .textblock p {
@@ -148,4 +155,11 @@ footer {
 
 .footer-links li {
 	font-size: 25px;
+}
+
+.text-about-me {
+	text-transform: uppercase;
+	grid-column-start: 2;
+	grid-column-end: 5;
+	margin-top: 25px;
 }
