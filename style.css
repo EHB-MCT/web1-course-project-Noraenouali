@@ -352,6 +352,18 @@ footer {
 	filter: grayscale(1);
 }
 
+.media-portfolio-1,
+.media-portfolio-3,
+.media-portfolio-4 {
+	transition: all 0.3s ease 0s;
+}
+
+.media-portfolio-1:hover,
+.media-portfolio-3:hover,
+.media-portfolio-4:hover {
+	filter: grayscale(0);
+}
+
 .media-portfolio-2 {
 	grid-column-start: 2;
 	grid-column-end: 4;
