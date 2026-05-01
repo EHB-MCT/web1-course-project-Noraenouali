@@ -86,6 +86,7 @@ nav {
 .title-center {
 	text-align: center;
 	margin-top: 0;
+	padding-top: 100px;
 }
 
 .illustration-wrapper-main {
@@ -245,8 +246,13 @@ footer {
 	object-fit: cover;
 }
 
+.grid-images-media {
+	margin-top: 450px;
+}
+
 .image-fullwidth {
 	width: 100vw;
+	position: relative;
 }
 
 .image-fullwidth img {
@@ -310,4 +316,8 @@ footer {
 	bottom: unset;
 	top: -200px;
 	left: -10vw;
+}
+
+.image-paper-tear-3 {
+	bottom: -350px;
 }
