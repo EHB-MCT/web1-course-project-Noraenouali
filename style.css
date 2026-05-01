@@ -44,6 +44,24 @@ nav {
 
 .logo {
 	color: #d0d0d0;
+	position: relative;
+}
+
+.logo::after {
+	content: " ";
+	display: block;
+	height: 2px;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	background: #d0d0d0;
+	width: 0;
+	transition: all 0.3s ease 0s;
+}
+
+.logo:hover::after {
+	width: 100%;
+	left: 0;
 }
 
 .menu-wrapper {
@@ -66,11 +84,48 @@ nav {
 
 .menu-item {
 	list-style: none;
+	position: relative;
+}
+
+.menu-item a {
+	position: relative;
+}
+
+.menu-item a::after {
+	content: " ";
+	display: block;
+	height: 2px;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	background: #d0d0d0;
+	width: 0;
+	transition: all 0.3s ease 0s;
+}
+
+.menu-item a:hover::after {
+	width: 100%;
+	left: 0;
 }
 
 .menu-item-button {
 	border: solid 1px #d0d0d0;
 	padding: 10px 20px;
+	list-style: none;
+	pointer-events: none;
+	transition: all 0.3s ease 0s;
+}
+
+.menu-item-button > a {
+	pointer-events: auto;
+}
+
+.menu-item-button:hover {
+	background-color: #d0d0d0;
+}
+
+.menu-item-button a:hover {
+	color: #242426;
 }
 
 .title-main {
