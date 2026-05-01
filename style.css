@@ -225,6 +225,32 @@ footer {
 	position: relative;
 }
 
+.footer-links li {
+	list-style: none;
+	position: relative;
+}
+
+.footer-links li a {
+	position: relative;
+}
+
+.footer-links li a::after {
+	content: " ";
+	display: block;
+	height: 2px;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	background: #d0d0d0;
+	width: 0;
+	transition: all 0.3s ease 0s;
+}
+
+.footer-links li a:hover::after {
+	width: 100%;
+	left: 0;
+}
+
 .footer-links::before {
 	content: " ";
 	position: absolute;
