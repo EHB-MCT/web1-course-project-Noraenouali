@@ -4,9 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Navbar</title>
+		<!-- Stylesheet -->
 		<link rel="stylesheet" href="style.css" />
+		<!-- defer loads js before loading the page -->
+		<script src="/script.js" defer></script>
 
-		<!-- typo  -->
+		<!-- typography  -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -25,6 +28,10 @@
 	<body>
 		<nav>
 			<div class="menu-wrapper">
+				<div class="burger-menu">
+					<span class="burger-menu-text">Menu</span>
+					<span class="burger-menu-icon"></span>
+				</div>
 				<a class="logo" href="/index.html">Nora</a>
 
 				<ul class="menu">
