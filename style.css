@@ -454,6 +454,9 @@ footer {
 	.image-paper-tear-2 {
 		top: -35px;
 	}
+	.image-paper-tear-3 {
+		bottom: -90px;
+	}
 	footer {
 		padding: 50px 10vw;
 		padding-top: 75px;
@@ -534,9 +537,14 @@ footer {
 	}
 	.grid-images-media {
 		padding: 0 10vw;
+		margin-top: 150px;
 	}
 	.menu-wrapper {
 		margin-top: 0;
 		height: 60px;
+	}
+	.title-center {
+		margin-top: 0;
+		padding-top: 50px;
 	}
 }
