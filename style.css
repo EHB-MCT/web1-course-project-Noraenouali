@@ -451,6 +451,9 @@ footer {
 	.image-paper-tear {
 		bottom: -30px;
 	}
+	.image-paper-tear-2 {
+		top: -35px;
+	}
 	footer {
 		padding: 50px 10vw;
 		padding-top: 75px;
@@ -480,6 +483,7 @@ footer {
 	.text-about-me {
 		grid-column-start: 1;
 		grid-column-end: -1;
+		margin-bottom: 100px;
 	}
 	.title-subtitle {
 		grid-column-start: 1;
