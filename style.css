@@ -35,7 +35,7 @@ body[burger-active-menu] .burger-menu-icon::before {
 body[burger-active-menu] .menu {
 	width: 100vw;
 	height: 100vh;
-	background: url(/images/background.png);
+	background: url(./images/background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: fixed;
